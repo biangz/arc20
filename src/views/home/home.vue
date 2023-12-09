@@ -1,12 +1,12 @@
 <template>
     <router-view v-slot="{ Component, route }" :key="$route.fullPath">
-        <Header></Header>
+        <!-- <Header></Header> -->
         <main>
             <keep-alive>
                 <component :is="Component" />
             </keep-alive>
         </main>
-        <Footer></Footer>
+        <!-- <Footer></Footer> -->
     </router-view>
 </template>
 
@@ -16,6 +16,6 @@
 
 <style scoped>
 main {
-    min-height: calc(100vh - var(--header-height));
+    min-height: 100vh;
 }
 </style>
