@@ -15,7 +15,7 @@ let routes = [
       
       {
         path: '/',
-        component: () => import("@/views/index.vue"),
+        component: () => import("@/views/homepage.vue"),
         name: 'Index',
         meta: {
           loginRequired: false,

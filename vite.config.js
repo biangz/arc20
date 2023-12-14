@@ -31,7 +31,7 @@ export default defineConfig({
     preprocessorOptions: {
       less: {
         modifyVars: {
-          // 'arcoblue-6': '#f85959',
+          'arcoblue-6': '#FFA300',
           // 'color-primary-6': '#13c2c2',
           // 'color-primary-6': `rgb(var(~'@{arco-cssvars-prefix}-green-6'))`
         },
@@ -43,6 +43,7 @@ export default defineConfig({
         postCssPxToRem({
           rootValue: 50,
           propList:['*'],
+          exclude: /node_modules/i,
         })
       ]
     }
