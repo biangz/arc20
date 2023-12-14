@@ -11,7 +11,7 @@
                 <img class="w-[5rem] ml-4" src="../assets/images/logo.png" alt="">
                 <div class="ml-2">
                     <img class="w-[20rem]" src="../assets/images/text-comingsooon.png" alt="">
-                    <p><a class="underline font-weight text-white text-sm ml-1" href="https://whitepaper.dischain.xyz" target="_blank">Whitepaper</a></p>
+                    <p><a class="underline font-weight text-white text-sm ml-1" href="https://lees-personal-organization.gitbook.io/ganc-the-best-btc-stable-coin-protocol/" target="_blank">Whitepaper</a></p>
                 </div>
             </div>
         </div>
