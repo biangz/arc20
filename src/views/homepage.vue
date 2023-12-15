@@ -6,7 +6,8 @@
                     <h1 class="text-base">GANC - The Best BTC Stable Coin Protocol</h1>
                     <p class="mt-4 text-xs font-cr">The Bitcoin network does not require applications and ecosystems, it only needs to output stablecoins.</p>
                     <!-- <a-button class="bg-white mt-8 px-2 text-sm">Get Start</a-button> -->
-                    <a-button class="mt-4" type="primary" href="https://twitter.com/arc20_btc" target="_blank">Follow Us</a-button>
+                    <a-button class="mt-4" type="primary" href="https://twitter.com/arc20_btc" target="_blank">Follow Us</a-button><a :href="whitePaper"
+                    target="_blank" class="ml-2 font-cm underline text-white">white paper</a>
                 </div>
                 <img class="banner-image text-xs w-[13rem] hidden lg:block" src='../assets/images/pic-banner.png' />
             </div>
@@ -34,7 +35,7 @@
                 <h1 class="text-base font-cs tracking-wider text-center">GANC - ARC20 market based on Atomicals protocol and new stablecoin issuance protocol</h1>
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-12 text-white">
                     <div class="chain-item bg-[#1e2025] px-2 py-4">
-                        <img class="w-4" src="../assets/images/icon/eth.png" />
+                        <img class="w-3" src="../assets/images/icon/decen.png" />
                         <div class="p-1">
                             <h3 class="text-[0.6rem] font-cs py-2">Decentralization</h3>
                             <!-- <p class="text-[0.45rem] font-cr leading-[1.5] tracking-wider">In the world of cryptocurrency,
@@ -93,14 +94,15 @@
             <img class="w-[16rem] mt-12 lg:mt-0" src="../assets/images/community-img.png" />
         </div>
         <footer class="footer px-4 lg:px-40 py-8">
-            <p class="text-md font-cr text-center">All Rights Reserved @GANC | <a href="https://lees-personal-organization.gitbook.io/ganc-the-best-btc-stable-coin-protocol/"
+            <p class="text-md font-cr text-center">All Rights Reserved @GANC | <a :href="whitePaper"
                     target="_blank" class="ml-2 font-cm underline">white paper</a></p>
         </footer>
     </div>
 </template>
 
 <script setup>
-
+import { ref } from 'vue';
+const whitePaper = ref('https://lees-personal-organization.gitbook.io/ganc-the-best-btc-stable-coin-protocol/')
 </script>
 
 <style lang="less" scoped>
